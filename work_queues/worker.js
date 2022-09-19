@@ -26,7 +26,7 @@ amqp.connect('amqp://localhost', (error0, connection) => {
       }, secs * 1000)
     }, {
       // automatic acknowledgment mode,
-      noAck: true
+      noAck: false
     });
   });
 });

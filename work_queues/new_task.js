@@ -21,3 +21,10 @@ amqp.connect('amqp://localhost', (error0, connection) => {
     console.log(` [x] Sent ${msg}`)
   });
 });
+
+/*
+node work_queues/new_task.js 1
+node work_queues/new_task.js 2
+node work_queues/new_task.js 3
+node work_queues/new_task.js 4
+*/
